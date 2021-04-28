@@ -80,22 +80,30 @@ switch(variable){
 
  let maritalstate = prompt('are you married');
  console.log(maritalstate);
- switch (maritalstate.toUpperCase()) {
-    case 'YES':
-       alert('thats correct');
-        break;
-    case 'Y':
-       alert('thats correct');
-        break;
-        case 'NO':
-        alert('wrong answer, ive been married 3 years ago');
-        break;
-        case 'N':
-        alert('wrong answer, ive been married 3 years ago');
-        break;
-    
-        
-}
+
+    function TheGussingGame(theA)
+    {
+        switch (maritalstate.toUpperCase()) {
+            case 'YES':
+               alert('thats correct');
+                break;
+            case 'Y':
+               alert('thats correct');
+                break;
+                case 'NO':
+                alert('wrong answer, ive been married 3 years ago');
+                break;
+                case 'N':
+                alert('wrong answer, ive been married 3 years ago');
+                break;
+            
+                
+        }
+    }
+
+    TheGussingGame(maritalstate)
+
+
 
  let travel = prompt('do you like traveling');
 
